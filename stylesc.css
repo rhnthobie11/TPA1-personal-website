@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,800;1,900&display=swap");
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    color: #03506F;
+}
+
+body{
+    background-color: #EBEBEB;
+
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background-color: #03506F;
+    color: #EBEBEB;
+}
+/* index*/
+
+.home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 50px;
+    margin: 100px 50px 50px 50px;
+}
+
+.welcome-home h1 {
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+
+/* home*/
+
+.homepage .welcome-homepage{
+    text-align: center;
+    padding: 10px 50px;
+    margin: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.welcome-homepage p {
+    margin-top: 20px;
+}
+
+.button-home {
+    font-weight: 600;
+}
+
+.button-home li{
+    margin-top: 20px;
+}
+
+
+li .button1{
+    padding: 5px 30px;
+    background-color: #03506F;
+    color: #EBEBEB;
+    border-radius: 5px;
+
+}
+
+li .button2{
+    padding: 5px 20px;
+    border: 1px;
+    color: #03506F;
+    background-color: #EBEBEB;
+
+}
+
+.menu-homepage ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.menu-homepage ul li a{
+    border-radius: 5px;
+    background-color: #03506F;
+    color: #EBEBEB;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 80px 50px;
+}
+
+footer{
+    /*
+    Property utama agar Footer tetap berada dibawah.*/
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            
+
+            /*
+                Property tambahan agar text di dalam Footer berada di tengah.
+            */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #03506F;
+            
+}
+
+footer p{
+    margin: 20px;
+    color: #EBEBEB;
+    font-size: 12px;
+}
+
+.footer{
+    /*
+    Property utama agar Footer tetap berada dibawah.*/
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            top: 50px;
+
+            /*
+                Property tambahan agar text di dalam Footer berada di tengah.
+            */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #03506F;
+            
+}
+
+.footer p{
+    margin: 20px 20px 20px 20px;
+    color: #EBEBEB;
+    font-size: 12px;
+}
+.card-view{
+    border: 1px solid #03506F;
+    width: 220px; 
+    height: 180px;
+    background-color: #03506F;
+    border-radius: 5px;
+    color: #EBEBEB;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(29, 28, 28, 0.418);
+    border: 1px grey;
+}
+
+.card-view img{
+    height:120px;
+    width: 220px ;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 8px;
+}
+
+.card-view a{
+    color: #EBEBEB;
+    font-weight: 600;
+    
+}
+.card-menu{
+    margin-top: -10px;
+}
+.card-menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.card-menu ul li{
+    margin: 30px;
+}
+/** portofolio **/
+.card-view-porto{
+    border: 1px solid #03506F;
+    width: 350px; 
+    height: 150px;
+    background-color: #03506F;
+    border-radius: 5px;
+    color: #EBEBEB;
+    box-shadow: 2px 2px 2px rgba(29, 28, 28, 0.418);
+    border: 1px grey;
+    display: flex;
+    align-items: center;
+}
+
+.card-view-porto img{
+    height:150px;
+    width: 150px;
+    border-radius: 5px 0px 0 5px;
+}
+
+.card-view-porto a {
+    color: #EBEBEB;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.card-view-porto p{
+    margin: 10px;
+    color: #EBEBEB;
+    font-size: 12px;
+}
+
+
+.card-menu-porto ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-menu-porto ul li{
+    margin: 20px;
+}
+
+/**** blog *****/
+.blog-nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+.blog-img{
+    position: relative;
+	z-index: 1;
+	top: 0px;
+    
+}
+
+.blog-nav ul{
+    display: flex;
+    position: absolute;
+	top: 20px;
+	z-index: 2;
+}
+
+.blog-nav ul li{
+    margin: 0 10px;
+}
+
+.blog-nav ul li a{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.blog-nav ul li a:hover{
+    background-color: #03506F;
+    color: #EBEBEB;
+}
+
+.blog-homepage .welcome-homepage{
+    text-align: center;
+    padding: 10px 50px;
+    margin: 80px;
+    margin-left: 250px;
+    position: absolute;
+	top: 40px;
+	z-index: 2;
+}
+
+.welcome-homepage h1 {
+    font-size: 48px;
+}
+
+.welcome-homepage p {
+    margin-top: 20px;
+}
+
+.card-view-blog{
+    border: 1px solid #03506F;
+    width: 450px; 
+    height: 190px;
+    background-color: #03506F;
+    border-radius: 5px;
+    color: #EBEBEB;
+    box-shadow: 2px 2px 2px rgba(29, 28, 28, 0.418);
+    border: 1px grey;
+    display: flex;
+    align-items: center;
+}
+
+.card-view-blog img{
+    height:190px;
+    width: 190px;
+    border-radius: 5px 0px 0 5px;
+}
+
+.card-view-blog a {
+    color: #EBEBEB;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-view-blog p{
+    color: #EBEBEB;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+.card-menu-blog ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-menu-blog ul li{
+    margin: 20px;
+}
+
+
+.desc{
+    margin: 10px ;
+}
+
+/* profile*/
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.desc-profile{
+    margin: 50px 50px 50px 50px;
+    text-align: justify;
+    text-indent: 0.5in;
+}

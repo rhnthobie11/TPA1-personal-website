@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,800;1,900&display=swap");
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: beige;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: auto;
+    background-color: #222;
+    /* box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.5); */
+}
+.logo a{
+    font-size: 30px;
+    font-weight: 600;
+    float: left;
+    color : #ffffff ;
+}
+a{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    padding: 14px 25px;
+}
+.wrapper ul{
+    display: flex;
+    padding: 12px 10px;
+    list-style: none; 
+}
+ul > li > a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.active {
+    background-color: rgb(229, 229, 229);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.active:hover{
+    color: black !important;
+}
+li a{
+    color:#ffffff;
+}
+li a:hover{
+    color:rgb(118, 136, 255);
+    transition: all .4s ease-in-out;
+}
+
+/* .PP {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+} */
+/* BATAS NAVBAR */
+
+/* untuk mengatur lebar page home */
+.main{
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+    height: 85vh;
+}
+
+.container footer {
+    justify-content: center;
+    position: sticky;
+    top: 50px;
+    /* bottom: 0; */
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: #222;
+    color: white;
+  }
+
+/* batas footer */
+/* buat page home */
+.grid12 .greeting, .quotes{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.quotes p, h4{
+    font-size: x-large;
+}
+
+/* page about */
+.intro {
+    text-align:left;
+    padding-top: 75px;
+}
+.img-home img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 50px 20px 50px 120px;
+}
+
+.biodata-diri table, h3{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.biodata-diri tr > td {
+    padding: 10px;
+    background-color:rgb(227, 227, 227);
+    border-radius: 10px;
+}
+
+/* page blog nih  */
+#Blog {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading span{
+    color: black;
+}
+
+.blog-heading h2{
+    font-size: 24px;
+    color: darkslategray;
+    font-weight: 600;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: cemter;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid darkslategray;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;   
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: black;
+    font-size: 15px;
+}
+.blog-text .blog-title{
+    font-size: 1.3 rem;
+    font-weight: 500;
+    color: #272727;
+}
+.blog-text .blog-title:hover{
+    color: rgb(0, 30, 255);
+    transition: all ease 0.3s;
+}
+.blog-text p{
+    color: #9b9b9b;
+    font-size: 15px;
+    display: -webkit-box;
+    /* pembatasan konten wadah blok ke jumlah baris yang ditentukan. */
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* masuk page porto */
+#skill {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.list-porto img{
+    width: 100%;
+    height: auto;
+}
+.porto-box{
+    width: 350px;
+    background-color: #e8e8e8;
+    border: 1px solid darkslategray;
+    margin: 20px;
+}
+.porto-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.porto-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+.porto-container{
+    display: flex;
+    justify-content: center;
+    align-items: cemter;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
